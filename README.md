@@ -1,13 +1,13 @@
 # guac-a-mole
 Open source, arcade-style Java game based around making delicious virtual guacamole quickly to earn points, high scores, and achievements. https://randallarms.com/guac-a-mole
 
-#Controls
+## Controls
 
 Tap to smash the ingredient and add it to the mix.
 
 Swipe to spin the bowl and gain a bonus score modifier.
 
-#Summary
+## Summary
 
 Whether you want to make delicious virtual guacamole or you're just hoping to smash avocados silly for points, Guac-A-Mole is your game!
 
