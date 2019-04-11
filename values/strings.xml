@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guac-A-Mole!</string>
+    <string name="start">START</string>
+    <string name="guacamole">GUAC-A-MOLE!</string>
+    <string name="saved_hiscore">0</string>
+    <string name="saved_avocados">0</string>
+    <string name="saved_rotten">0</string>
+    <string name="saved_chilis">0</string>
+    <string name="saved_limones">0</string>
+    <string name="saved_multiplier">0</string>
+    <string name="saved_gamesTotal">0</string>
+</resources>

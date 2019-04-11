@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="trophyStandard">#293125</color>
+    <color name="trophyGreen">#364030</color>
+    <color name="trophyYellow">#464736</color>
+    <color name="trophyOrange">#474136</color>
+    <color name="trophyRed">#473636</color>
+    <color name="trophyViolet">#3c3647</color>
+    <color name="trophyIndigo">#363b47</color>
+    <color name="trophyBlue">#364747</color>
+    <color name="trophyPrismatic">#453647</color>
+    <color name="trophyWhite">#545454</color>
+    <color name="trophyGray">#3a3a3a</color>
+    <color name="trophyBlack">#222222</color>
+    <color name="trophyCrude">#3c443b</color>
+    <color name="trophyRenaissance">#44433b</color>
+    <color name="trophyCubist">#3b3b44</color>
+    <color name="trophyPsychedelic">#433b44</color>
+    <color name="trophyJpg">#443f3b</color>
+    <color name="trophyAbyssal">#d709003a</color>
+    <color name="trophyTwilight">#d727003a</color>
+    <color name="trophyDusk">#d73a0003</color>
+    <color name="trophyMidnight">#d7002a3a</color>
+    <color name="trophySnow">#d736605c</color>
+    <color name="trophyMagma">#d7491d00</color>
+    <color name="trophyRadioactive">#d7004b0d</color>
+    <color name="trophyEthereal">#d700380a</color>
+</resources>

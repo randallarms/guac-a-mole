@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:background="#222222"
+    tools:context="com.randallarms.dionysium.guac_a_mole.StatsActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp" >
+
+    <TextView
+        android:id="@+id/statsTitleText"
+        android:textStyle="bold"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATS"
+        android:textSize="48sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#abc600"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="8"/>
+
+    <TextView
+        android:id="@+id/totalsTitleText"
+        android:textStyle="bold|italic"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Smashed"
+        android:textSize="30sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="100dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#abc600"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+
+    <ImageView
+        android:id="@+id/limonTotal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/limon_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="260dp" />
+
+    <TextView
+        android:id="@+id/limonTotalText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="275dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/chiliTotal"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/chili_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="105dp" />
+
+    <TextView
+        android:id="@+id/chiliTotalText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="105dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/rottenTotal"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/avocado_rotten_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="110dp" />
+
+    <TextView
+        android:id="@+id/rottenTotalText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="225dp"
+        android:layout_marginRight="65dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/avocadoTotal"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/avocado_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/avocadoTotalText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="225dp"
+        android:layout_marginRight="245dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/multiplierScore"
+        android:textStyle="bold"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best stir multiplier:"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/multiplierScoreText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x00"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/totalGamesScore"
+        android:textStyle="bold"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total games played:"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/totalGamesScoreText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:textSize="26sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/expText"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000000"
+        android:textSize="42sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#abc600"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="8"/>
+
+    <TextView
+        android:id="@+id/levelText"
+        android:textStyle="bold|italic"
+        android:textColor="#ded666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XP"
+        android:textSize="90sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#abc600"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="20" />
+
+    <ImageButton
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:onClick="backToMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@mipmap/restart_button"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <ImageButton
+        android:id="@+id/openTrophyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="openTrophy"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/avocado_gold_button"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ImageButton
+        android:id="@+id/openMedalsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="openMedals"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@mipmap/medals_button"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:background="@drawable/orchard_background"
+    tools:context="com.randallarms.dionysium.guac_a_mole.MainActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:textStyle="bold|italic"
+        android:textColor="#5eed00"
+        android:textSize="52dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonTap"
+        android:text="START!"
+        android:background="@drawable/avocado_realistic"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:shadowColor="#098b00"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10" />
+
+    <Button
+        android:id="@+id/medalsButton"
+        android:layout_width="45dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/medal_gold_back"
+        android:onClick="onMedalsButtonTap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/tutorialButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/help_icon"
+        android:onClick="onTutorial"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
