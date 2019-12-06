@@ -9,6 +9,16 @@ Tap to smash the ingredient and add it to the mix.
 
 Swipe to spin the bowl and gain a bonus score modifier.
 
+## Help & Tips
+
+Smashing avocados, chilis, and lemons will give you points multiplied by the bonus score modifier.
+
+The first three chili peppers per round are worth bonus points. Any more than 3 will break the heat meter and lose points.
+
+Since a round can have more than three chilis per round, waiting to smash chilis until you have a better score modifier may be wise.
+
+There are three lemons per round. Always smash lemons the moment you see them, as they roll away quickly.
+
 ## Summary
 
 Whether you want to make delicious virtual guacamole or you're just hoping to smash avocados silly for points, Guac-A-Mole is your game!
