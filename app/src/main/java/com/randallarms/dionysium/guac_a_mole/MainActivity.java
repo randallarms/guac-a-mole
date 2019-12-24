@@ -90,4 +90,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onRecipes(View v) {
+
+        //Start the recipes activity
+        intent = new Intent(this, RecipesActivity.class);
+        startActivity(intent);
+        this.finish();
+
+    }
+
 }

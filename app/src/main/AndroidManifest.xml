@@ -22,6 +22,8 @@
         <activity android:name=".StatsActivity"></activity>
         <activity android:name=".TrophyActivity"></activity>
         <activity android:name=".SmashTutorial"></activity>
+        <activity android:name=".RecipesActivity"></activity>
+        <activity android:name=".RecipeActivity"></activity>
     </application>
 
 </manifest>
