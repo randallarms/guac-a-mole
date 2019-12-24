@@ -21,13 +21,14 @@ There are three lemons per round. Always smash lemons the moment you see them, a
 
 ## Summary
 
-Whether you want to make delicious virtual guacamole or you're just hoping to smash avocados silly for points, Guac-A-Mole is your game!
+Whether you want a recipe to make delicious guacamole or you're just hoping to smash virtual avocados silly for points, Guac-A-Mole is your app!
 
-Try to guac as many avocados as you can before the round is up, all while stirring the bowl to boost your score multiplier (and the quality of your guacamole, of course). Adding in chili peppers also makes for a spicy bonus -- but avoid breaking the heat meter or your guac will suffer!
+Make real life guacamole with the authentic guacamole recipes found in the cook book. To access the recipes, tap the cookbook icon on the home screen and then select an icon to get a step-by-step guide easy guacamole recipe.
 
-Smashing limones (those are lemons, for we gringos!) rakes in a valuable score boost, but accidentally including disgusting ol' rotten avocados will cost you serious points.
+To access the signature Guac-A-Mole mini-game, press the "Start" button on the home screen. Try to 'guac' as many avocados as you can before the round is up, all while swiping to stir the bowl and boost your score multiplier (and thus the quality of your guacamole, of course).
+
+Adding in chili peppers also makes for a spicy bonus -- but avoid breaking the heat meter or your guac will suffer! Smashing limones (those are lemons, for we gringos!) rakes in a valuable score boost, but accidentally including disgusting ol' rotten avocados will cost you serious points.
 
 Complete medal challenges each round to earn bonus experience! Reaching certain experience milestones (as indicated in the stats page) will improve your Avocado Trophy, accessible through the Medals screen.
 
-So what are you waiting for?
-GET GUAC'IN'!
+So what are you waiting for? Get guac-ing!
