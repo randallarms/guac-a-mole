@@ -1,23 +1,7 @@
 # Guac-A-Mole!
 https://randallarms.com/guac-a-mole
 
-Open source, arcade-style Java game based around making delicious virtual guacamole quickly to earn points, high scores, and achievements.
-
-## Controls
-
-Tap to smash the ingredient and add it to the mix.
-
-Swipe to spin the bowl and gain a bonus score modifier.
-
-## Help & Tips
-
-Smashing avocados, chilis, and lemons will give you points multiplied by the bonus score modifier.
-
-The first three chili peppers per round are worth bonus points. Any more than 3 will break the heat meter and lose points.
-
-Since a round can have more than three chilis per round, waiting to smash chilis until you have a better score modifier may be wise.
-
-There are three lemons per round. Always smash lemons the moment you see them, as they roll away quickly.
+Open source, arcade-style Java game based around making delicious virtual guacamole to earn points, high scores, and achievements. Comes w/ easy recipes!
 
 ## Summary
 
@@ -32,3 +16,19 @@ Adding in chili peppers also makes for a spicy bonus -- but avoid breaking the h
 Complete medal challenges each round to earn bonus experience! Reaching certain experience milestones (as indicated in the stats page) will improve your Avocado Trophy, accessible through the Medals screen.
 
 So what are you waiting for? Get guac-ing!
+
+## Game Controls
+
+Tap to smash the ingredient and add it to the mix.
+
+Swipe to spin the bowl and gain a bonus score modifier.
+
+## Game Help & Tips
+
+Smashing avocados, chilis, and lemons will give you points multiplied by the bonus score modifier.
+
+The first three chili peppers per round are worth bonus points. Any more than 3 will break the heat meter and lose points.
+
+Since a round can have more than three chilis per round, waiting to smash chilis until you have a better score modifier may be wise.
+
+There are three lemons per round. Always smash lemons the moment you see them, as they roll away quickly.
